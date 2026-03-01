@@ -71,6 +71,7 @@ defineOgImageComponent('Default', {
               <div class="search-box relative flex items-center">
                 <kbd
                   class="absolute inset-is-4 text-fg-subtle font-mono text-lg pointer-events-none transition-colors duration-200 motion-reduce:transition-none [.group:hover:not(:focus-within)_&]:text-fg/80 group-focus-within:text-accent z-1 rounded"
+                  aria-hidden="true"
                 >
                   /
                 </kbd>
@@ -87,6 +88,7 @@ defineOgImageComponent('Default', {
                   class="w-full ps-8 pe-24"
                   @focus="isSearchFocused = true"
                   @blur="isSearchFocused = false"
+                  ariaKeyshortcuts="/"
                 />
 
                 <ButtonBase
