@@ -69,11 +69,11 @@ defineOgImageComponent('Default', {
               />
 
               <div class="search-box relative flex items-center">
-                <span
-                  class="absolute inset-is-4 text-fg-subtle font-mono text-lg pointer-events-none transition-colors duration-200 motion-reduce:transition-none [.group:hover:not(:focus-within)_&]:text-fg/80 group-focus-within:text-accent z-1"
+                <kbd
+                  class="absolute inset-is-4 text-fg-subtle font-mono text-lg pointer-events-none transition-colors duration-200 motion-reduce:transition-none [.group:hover:not(:focus-within)_&]:text-fg/80 group-focus-within:text-accent z-1 rounded"
                 >
                   /
-                </span>
+                </kbd>
 
                 <InputBase
                   id="home-search"
